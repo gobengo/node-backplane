@@ -1,6 +1,6 @@
 {
   "author": "Benjamin Goering <bengoering@gmail.com>",
-  "name": "backplane",
+  "name": "Backplane",
   "description": "A Backplane server implemented in node.js",
   "version": "0.0.0",
   "repository": {
