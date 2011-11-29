@@ -1,5 +1,4 @@
 var express = require('express')
-
 require('express-resource')
 
 function Backplane () {
@@ -8,7 +7,10 @@ function Backplane () {
 
 	var app = express.createServer()
 
-	app.resource('messages', require('./resources/messages'))
+	// /messages
+	app.resource('message', require('./resources/messages'))
+	// /token
+	app.resource('token', require('./resources/token'))
 
 	return app
 }
