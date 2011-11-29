@@ -3,6 +3,7 @@
   "name": "Backplane",
   "description": "A Backplane server implemented in node.js",
   "version": "0.0.0",
+  "main": "./lib/Backplane",
   "repository": {
     "url": ""
   },
